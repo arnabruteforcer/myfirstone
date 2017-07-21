@@ -27,7 +27,7 @@ public class HelloWorld{
          if(n==1)
           return true;
          
-         return(a[n-1]<a[n-2])?false:arrayIsSorted(a,n-1); //if the previous element 
+         return(a[n-1]<a[n-2])?false:arrayIsSorted(a,n-1); //if the previous element recursive method 
      }
 }
 
